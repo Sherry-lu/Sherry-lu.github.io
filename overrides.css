@@ -1,0 +1,236 @@
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 5px;
+    font-size: 60px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+body {
+    font-family: "Times New Roman", Times, serif !important;
+    letter-spacing: 0.1vw;
+
+}
+
+h6{
+    width: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.contact-container{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.splash-text{
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 2px;
+    font-weight: 350;
+}
+
+
+
+body {
+    background-image: url("https://inspirationhut.net/wp-content/uploads/2013/05/201.png");
+    background-color: #cccccc;
+   }
+
+/*left cover*/
+.leftcontainer {
+    position: relative;
+    width: 50%;
+  }
+  
+  .leftimage {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .leftoverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .leftcontainer:hover .leftoverlay {
+    width: 100%;
+  }
+  
+  .lefttext {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .font3{
+      text-align: center;
+  }
+
+  .speed{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#pbody{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+#pcontainer {
+    width: 500px;
+    height: 500px;
+    background: #7bbfff;
+    margin: 10px auto;
+}
+
+.empty {
+    background: #DAD4EF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: 'Audiowide';
+    color: #E4FDE1;
+}
+ul li {
+    background: #567dfd;
+    width: 30%;
+    height: 150px;
+    border: 1px solid #dde9eb;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+}
+#th1 {
+    text-align: center;
+    color: #121312;
+    font-family: 'Sofia';
+    transform: rotate(-10deg)
+}
+#modal {
+    width: 40%;
+    height: 400px;
+    background: #a6cbf5;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Sofia';
+}
+
+#modal #message {
+    color: #110102;
+    margin-left: 0;
+    text-align:center;
+    font-size: 3rem;
+}
+
+.hide {
+    display: none;
+}
+#modal #header {
+    text-align: right;
+    padding: 5px 10px;
+}
+#modal #header button {
+    padding: 10px;
+    border: 0px;
+    background: #456990;
+    color: #E4FDE1;
+    cursor: pointer;
+}
+#sh1{
+    text-align: center;
+    color: #121312;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    z-index:99999;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+.bp{
+    position:fixed;
+    width:100%;
+    text-align: center;
+    color: rgb(150, 164, 224);
+}
+
+
